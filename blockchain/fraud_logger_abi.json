@@ -1,0 +1,98 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_transactionId",
+				"type": "string"
+			},
+			{
+				"internalType": "uint8",
+				"name": "_prediction",
+				"type": "uint8"
+			},
+			{
+				"internalType": "string",
+				"name": "_timestamp",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_hashValue",
+				"type": "string"
+			}
+		],
+		"name": "storeRecord",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "index",
+				"type": "uint256"
+			}
+		],
+		"name": "getRecord",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint8",
+				"name": "",
+				"type": "uint8"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "records",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "transactionId",
+				"type": "string"
+			},
+			{
+				"internalType": "uint8",
+				"name": "prediction",
+				"type": "uint8"
+			},
+			{
+				"internalType": "string",
+				"name": "timestamp",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "hashValue",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
